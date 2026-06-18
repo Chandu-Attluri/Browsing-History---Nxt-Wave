@@ -1,0 +1,105 @@
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  width: 85%;
+}
+.top-section {
+  background-color: #3367d6;
+  height: 8vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px;
+}
+.history {
+  height: 20px;
+  margin-right: 120px;
+}
+.search-container {
+  margin-left: 150px;
+  background-color: #2850a7;
+  border: 1px solid #6697ff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search-icon {
+  color: #ececec;
+  border-right: 1px solid #6697ff;
+  padding: 6px;
+}
+.input {
+  background-color: transparent;
+  padding-right: 45px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  color: #ffffff;
+}
+.bottom-section {
+  background-color: #ffffff;
+  padding: 60px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  box-shadow: 0px 4px 8px 0px #64748b;
+  border-radius: 15px;
+}
+.historyItem-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.time {
+  font-size: 16px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-right: 20px;
+}
+.middle-container {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  align-items: center;
+  flex-grow: 2;
+}
+.logo-image {
+  height: 20px;
+  margin-right: 20px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  margin-right: 20px;
+}
+.domainUrl {
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.delete-icon {
+  cursor: pointer;
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+  margin-right: 0px;
+}
+.noItem {
+  font-size: 32px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  margin-top: 250px;
+}
